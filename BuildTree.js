@@ -37,7 +37,7 @@
                 +"                                <th>姓名</th>"
                 +"                                <th>昵称</th>"
                 +"                                <th>工号</th>"
-                +"                                <th>Sing ID</th>"
+                +"                                <th>ID</th>"
                 /*+"                                <th>部门</th>"*/
                 +"                            </tr>"
                 +"                        </thead>"
@@ -127,7 +127,7 @@
             if(checkSingId(_userName)){
                 datas = {
                     'orgId' : orgId,
-                    'SingId' : _userName
+                    'Id' : _userName
                 }
             }
             else if(checkWorkNo(_userName)){
